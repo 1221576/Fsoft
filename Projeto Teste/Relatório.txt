@@ -1,0 +1,110 @@
+Baseia-se na Tp4
+
+*Sumário/Descrição
+
+*Requisitos
+
+*Modelo de Dominio
+
+*diagrama user case
+   -
+   -
+   -SSD : Parte da interação do usuario e o nosso sistema.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int *pdados;
+    int n, i;
+
+    // Pedir ao usuário o número de elementos a serem introduzidos
+    printf("Quantos elementos deseja introduzir? ");
+    scanf("%d", &n);
+
+    // Alocar memória para armazenar os elementos
+    pdados = (int *)malloc(n * sizeof(int));
+
+    // Verificar se a alocação foi bem-sucedida
+    if (pdados == NULL) {
+        printf("Erro: Falha na alocação de memória.\n");
+        return 1; // Terminar o programa com código de erro
+    }
+
+    // Pedir ao usuário para introduzir os elementos
+    printf("Introduza os elementos:\n");
+    for (i = 0; i < n; i++) {
+        scanf("%d", &pdados[i]);
+    }
+
+    // Imprimir os elementos introduzidos
+    printf("Elementos introduzidos:\n");
+    for (i = 0; i < n; i++) {
+        printf("%d ", pdados[i]);
+    }
+    printf("\n");
+
+    // Libertar a memória alocada
+    free(pdados);
+
+    return 0;
+}
