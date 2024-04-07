@@ -1,0 +1,15 @@
+1ª Associação - Na relação associativa entre "Fornecedor" e "Produto" através da entidade "Fornecimento", temos uma associação do tipo "N para 1" ou "N para N". Ou seja um fornecedor pode fornecer vários produtos (N produtos) e um produto pode ser fornecido por vários fornecedores (N fornecedores).
+
+A entidade "Fornecimento" funciona como uma tabela de associação ou tabela de junção que liga as entidades "Fornecedor" e "Produto". Essa tabela geralmente contém informações adicionais específicas para cada fornecimento, como a quantidade fornecida, a data do fornecimento, o preço de compras.
+
+2ª Associação - Na relação associativa entre "Cliente" e "Produto" através da entidade "Compra", temos uma associação do tipo "N para N". Isso significa que um cliente pode comprar vários produtos diferentes (N produtos) e um produto pode ser comprado por vários clientes diferentes (N clientes).
+
+A entidade "Compra" funciona como uma tabela de associação ou tabela de junção que liga as entidades "Cliente" e "Produto". Essa tabela geralmente contém informações adicionais específicas para cada compra, como a quantidade comprada, a data da compra, o preço de venda.
+
+3ª Associação - Na relação associativa entre "Venda" e "Produto" através da entidade "Itens Vendidos", temos uma associação do tipo "N para N". Isso significa que uma venda pode conter vários produtos diferentes (N produtos) e um produto pode estar presente em várias vendas diferentes (N vendas).
+
+A entidade "Itens Vendidos" esta a ser usada como uma tabela de associação que liga as entidades "Venda" e "Produto". Essa tabela  contém informações adicionais específicas para cada item vendido em uma transação, como a quantidade vendida, o preço unitário, o total do item.
+
+4ª Associção - Na relação associativa entre "Farmácia" e "Funcionários" através da entidade "Contratação", temos uma associação do tipo "1 para N". Isso significa que uma farmácia pode contratar vários funcionários (N funcionários), mas cada funcionário é contratado por apenas uma farmácia.
+
+A entidade "Contratação" funciona como uma tabela de associação ou tabela de junção que liga as entidades "Farmácia" e "Funcionários". Essa tabela geralmente contém informações adicionais específicas para cada contrato de trabalho, como a data de contratação, o cargo do funcionário, o salário.

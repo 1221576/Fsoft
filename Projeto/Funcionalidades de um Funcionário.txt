@@ -1,0 +1,15 @@
+Em um sistema de software de uma farmácia, os funcionários têm várias funções e permissões, dependendo de seus cargos e responsabilidades. Aqui estão algumas das permissões típicas associadas aos funcionários em um sistema de farmácia:
+
+1-Gerenciamento de Inventário: Os funcionários podem ter permissão para gerenciar o estoque de medicamentos e produtos da farmácia. Isso pode incluir adicionar novos itens ao estoque, atualizar quantidades disponíveis, definir níveis de estoque mínimo, e solicitar novos suprimentos quando necessário.
+
+2-Vendas e Pagamentos: Funcionários podem ter permissão para processar vendas de medicamentos e outros produtos, aceitar pagamentos de clientes e emitir recibos. Eles podem também ser autorizados a oferecer descontos ou aplicar promoções.
+
+3-Gestão de Clientes: Isso inclui criar e atualizar perfis de clientes, acompanhar históricos de compras, gerenciar programas de fidelidade e fornecer informações sobre medicamentos prescritos.
+
+4-Prescrições e Receitas: Dependendo da legislação local e das políticas da farmácia, alguns funcionários podem ter permissão para aceitar e processar prescrições médicas, verificar a validade das receitas, e dispensar medicamentos prescritos.
+
+5-Relatórios e Análises: Funcionários podem ter acesso a ferramentas de geração de relatórios para monitorar as vendas, o desempenho do estoque, as tendências de compra e outras métricas relevantes para a gestão da farmácia.
+
+6-Administração do Sistema: Uma ou mais pessoas na equipe podem ter permissões especiais de administração para configurar e personalizar o sistema, gerenciar contas de usuário, aplicar atualizações de software e garantir a segurança dos dados.
+
+7-Segurança e Conformidade: Alguns funcionários podem ter permissão para garantir que a farmácia esteja em conformidade com regulamentos de saúde e segurança, incluindo a aplicação de medidas de segurança de dados e a proteção da privacidade do cliente.
